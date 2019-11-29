@@ -1,0 +1,43 @@
+.screen {
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+}
+
+.message {
+	bottom: 0;
+	background-color: #5ac7fa;
+	border-radius: 10px;
+	padding: 10px;
+	float: right;
+	width: 90%;
+}
+
+.servermessage {
+	bottom: 0;
+	background-color: #007bff;
+	border-radius: 10px;
+	padding: 10px;
+	float: left;
+	width: 90%;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #87ceeb;
+   color: white;
+   text-align: center;
+   float:left;
+}
+
+.textbox {
+    width: 90%;
+}
+
+.send {
+    width: 10%;
+    float: right;
+}

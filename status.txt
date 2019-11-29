@@ -1,0 +1,28 @@
+Progress - 5/22
+
+setup qnamaker in akhil account - Done
+sync application with new account - Done
+
+take input urls from user
+go to each of them, parse for faqs - Done
+create kb with with faqs, fetch kbid - Done
+fetch keywords - Done
+obtain synonyms for keywords - Done
+add synonyms to qnamaker - Done
+create new intent in luis - Done
+add new entity to luis - name can be same as kb name input - Done
+add keywords as entities? - Done
+train intent with all the questions as utterances
+publish luis app - Done
+publish kb - Done
+create entry in json file with intent-kbid-resource name
+
+runtime:
+develop ui for chat app
+obtain question from user
+identify intent
+if intent<80%, ask user input for domain
+check json file for intent-corresponding kbid
+query user question to kbid
+best response conf<60%, say not sure about result and show result
+otherwise just show result

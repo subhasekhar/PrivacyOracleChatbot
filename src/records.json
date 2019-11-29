@@ -1,0 +1,12 @@
+{
+  "names": [
+    "facebook"
+  ],
+  "records": [
+    {
+      "name": "facebook",
+      "intent": "facebookIntent",
+      "kbid": "2d35fc03-b906-41d8-810e-e84c06f45df2"
+    }
+  ]
+}
